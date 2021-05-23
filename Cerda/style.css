@@ -1,0 +1,81 @@
+body /*propriedades do corpo do texto*/
+{
+  text-align:left; /*alinhamento do texto c entralizado*/
+  font-family:Open Sans,sans-serif; /*fonte da letra*/
+  background-color:#3F96BF; /*cor de fundo*/
+  color:#ffffff; /*cor da letra*/
+  margin: 0px; /*definindo a margem*/
+}
+section
+{
+    max-width: 70%; /*largura máxima*/
+    margin:0 auto; /*definindo a margem*/
+}
+nav
+{
+  text-align:left; /*alinhamento do texto c entralizado*/
+  font-family:Open Sans,sans-serif; /*fonte da letra*/
+  color:#ffffff; /*cor da letra*/
+}
+img /*propriedades das imagens*/
+{
+  width: 100%; /*largura*/
+}
+button
+{
+ background: /*#41f341*/ #4682B4; /*cor do fundo do botão*/
+ color: white; /*cor da fonte do botão*/
+ border: 1px solid transparent; /*estilo da borda do botão*/
+ padding: 2px 20px;
+ border-radius: 3px; /*arredondamento da borda*/
+}
+/*.vertical-menu {
+  width: 200px; // Set a width if you like 
+}
+
+.vertical-menu a {
+  background-color: #B0C4DE; // cor do fundo das opções não selecionadas
+  color: white; // cor da letra 
+  display: block; // Make the links appear below each other 
+  padding: 12px; // Add some padding
+  text-decoration: none; // Remove underline from links 
+}
+
+.vertical-menu a:hover {
+  background-color: #4682B4; // cor do fundo quando for passando o mouser 
+}
+
+.vertical-menu a.active {
+  background-color: #4682B4; // cor da aba atual (selecionada) 
+  color: white; // cor da letra 
+}*/
+#menu-horizontal
+{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-horizontal ul 
+{
+    max-width: 600px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-horizontal ul li 
+{
+    display: inline;
+}
+
+#menu-horizontal ul li a 
+{
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-horizontal ul li a:hover 
+{
+    background-color: rgb(24, 139, 233);
+}
